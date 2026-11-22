@@ -1,0 +1,117 @@
+[
+ {
+  "slug": "hydrate",
+  "name": "SWELTER Daily",
+  "tag": "DAILY",
+  "line": "HYDRATION",
+  "flavour": "Watermelon",
+  "color": "#0A6CFF",
+  "ink": "#ffffff",
+  "bg": "#EAF3FF",
+  "headline": "Built for 38\u00b0 days.",
+  "sub": "Zero-sugar electrolytes with 1000mg of sodium per stick. Tip it into 500ml of water and get back out there.",
+  "bullets": [
+   "1000mg sodium, 400mg potassium, 60mg magnesium",
+   "Zero sugar, 10 calories",
+   "Watermelon. Tastes like a drink, not a salt lick"
+  ],
+  "for": [
+   "Tradies on site in January",
+   "Long runs before the sun's up",
+   "Beach days and big nights"
+  ],
+  "hook": "Water isn't enough when it's 38\u00b0."
+ },
+ {
+  "slug": "creatine",
+  "name": "SWELTER + Creatine",
+  "tag": "+ CREATINE",
+  "line": "5G CREATINE",
+  "flavour": "Mango",
+  "color": "#FF4A1C",
+  "ink": "#ffffff",
+  "bg": "#FFF0EA",
+  "headline": "Your electrolytes and your creatine. One stick.",
+  "sub": "1000mg of sodium plus 5g of creatine monohydrate. Stop mixing two tubs every morning.",
+  "bullets": [
+   "5g creatine monohydrate in every stick",
+   "1000mg sodium, 400mg potassium, zero sugar",
+   "Mango. Dissolves clear, no gritty bottom"
+  ],
+  "for": [
+   "Gym before work",
+   "Anyone already taking creatine",
+   "Training through an Aussie summer"
+  ],
+  "hook": "Stop mixing two tubs every morning."
+ },
+ {
+  "slug": "collagen",
+  "name": "SWELTER + Collagen",
+  "tag": "+ COLLAGEN",
+  "line": "10G COLLAGEN",
+  "flavour": "Pink Grapefruit",
+  "color": "#F2508E",
+  "ink": "#ffffff",
+  "bg": "#FFEFF5",
+  "headline": "The glass that does two jobs.",
+  "sub": "Zero-sugar electrolytes plus 10g of marine collagen peptides. Your hydration and your collagen in one glass.",
+  "bullets": [
+   "10g marine collagen peptides per stick",
+   "1000mg sodium, 400mg potassium, zero sugar",
+   "Pink grapefruit. No fishy taste, ever"
+  ],
+  "for": [
+   "Already buying collagen separately",
+   "Morning glass before coffee",
+   "Summer, sun and salt water"
+  ],
+  "hook": "Your collagen and your electrolytes, finally in one glass."
+ },
+ {
+  "slug": "focus",
+  "name": "SWELTER + Caffeine",
+  "tag": "+ CAFFEINE",
+  "line": "100MG CAFFEINE",
+  "flavour": "Lemon Lime",
+  "color": "#B8E600",
+  "ink": "#10210A",
+  "bg": "#F6FFDD",
+  "headline": "Swap the 3pm energy drink.",
+  "sub": "Zero-sugar electrolytes plus 100mg of natural caffeine from green tea. The lift without the can of sugar.",
+  "bullets": [
+   "100mg natural caffeine from green tea",
+   "1000mg sodium, 400mg potassium, zero sugar",
+   "Lemon lime. Crisp, not syrupy"
+  ],
+  "for": [
+   "The 3pm slump",
+   "Pre-training without the jitters of a pre-workout",
+   "Hot days you still have to think on"
+  ],
+  "hook": "The 3pm energy drink, minus the 50g of sugar."
+ },
+ {
+  "slug": "night",
+  "name": "SWELTER Night",
+  "tag": "NIGHT",
+  "line": "MAGNESIUM",
+  "flavour": "Mixed Berry",
+  "color": "#5A3BD6",
+  "ink": "#ffffff",
+  "bg": "#EFEBFF",
+  "headline": "The after-sun wind-down.",
+  "sub": "Caffeine-free electrolytes with 300mg of magnesium glycinate. Made for the end of a long, hot day.",
+  "bullets": [
+   "300mg magnesium glycinate",
+   "Electrolytes, zero sugar, zero caffeine",
+   "Mixed berry. Easy to drink at night"
+  ],
+  "for": [
+   "After a day in the sun",
+   "Post-training evenings",
+   "Swapping the nightly wine"
+  ],
+  "hook": "What you drink after a 38\u00b0 day."
+ }
+]
