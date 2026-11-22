@@ -20,7 +20,8 @@ h1{font-size:clamp(36px,5vw,60px);line-height:1}
 .ticks li:before{content:"";position:absolute;left:0;top:10px;width:18px;height:18px;border-radius:50%;background:var(--c)}
 .ticks li:after{content:"";position:absolute;left:6px;top:13px;width:5px;height:9px;border:solid var(--ink);border-width:0 2px 2px 0;transform:rotate(45deg)}
 
-.bundles{border:0;padding:0;margin:0 0 14px;display:grid;gap:10px}
+.hero>*{min-width:0}
+.bundles{border:0;padding:0;margin:0 0 14px;display:grid;gap:10px;min-width:0}
 .bundles legend{font-weight:800;margin-bottom:10px}
 .bundle{display:flex;align-items:center;gap:12px;border:2px solid #e3e3e3;border-radius:14px;padding:14px 16px;position:relative;cursor:pointer}
 .bundle:has(input:checked){border-color:#111;background:var(--bg)}
