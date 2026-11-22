@@ -10,6 +10,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "docs")
 ADS = os.path.join(ROOT, "ads")
 
+BASE_URL = "https://jamiedefiant.github.io/swelter"  # change when a custom domain is connected
 PRICE = 49  # AUD, 30 sticks. Same on every page so the test reads the promise, not the price.
 BUNDLES = [  # (boxes, total price, label)
     (1, 49, "1 box · 30 sticks"),
@@ -96,7 +97,7 @@ def mockup_svg(v, uid="m"):
 <rect x="190" y="440" width="220" height="72" fill="{c}"/>
 <text x="300" y="472" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="800" font-size="14" fill="{ink}" letter-spacing="1.5">{E(v['line'])}</text>
 <text x="300" y="494" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="600" font-size="12" fill="{ink}" letter-spacing="1.5">30 STICKS · ZERO SUGAR</text>
-<g transform="rotate(-14 150 380)">
+<g transform="translate(-26 6) rotate(-14 150 380)">
  <rect x="112" y="250" width="72" height="270" rx="6" fill="{c}"/>
  <rect x="112" y="250" width="72" height="18" rx="4" fill="{dark}"/>
  <rect x="112" y="502" width="72" height="18" rx="4" fill="{dark}"/>
@@ -120,7 +121,7 @@ def page(v):
 <title>{E(v['name'])} · {E(v['headline'])}</title>
 <meta name="description" content="{E(v['sub'])}">
 <meta property="og:title" content="{E(v['name'])}"><meta property="og:description" content="{E(v['headline'])}">
-<meta property="og:image" content="../assets/{v['slug']}.png">
+<meta property="og:image" content="{BASE_URL}/assets/{v['slug']}.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/style.css">
@@ -211,8 +212,8 @@ def ad(v, fmt):
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
 html,body{{margin:0;width:{w}px;height:{h}px;overflow:hidden}}
-body{{background:{v['bg']};font-family:Archivo,sans-serif;color:#111;display:flex;flex-direction:column;align-items:center;justify-content:{'center' if fmt=='story' else 'flex-start'};}}
-h1{{font-family:'Archivo Black';font-size:{88 if fmt=='feed' else 104}px;line-height:.98;letter-spacing:-1px;text-align:center;margin:{90 if fmt=='feed' else 0}px 70px 0}}
+body{{background:{v['bg']};font-family:Archivo,sans-serif;color:#111;display:flex;flex-direction:column;align-items:center;justify-content:center;}}
+h1{{font-family:'Archivo Black';font-size:{88 if fmt=='feed' else 104}px;line-height:.98;letter-spacing:-1px;text-align:center;margin:0 70px}}
 .art{{width:{820 if fmt=='feed' else 900}px;margin-top:-10px}}
 .pill{{background:{v['color']};color:{v['ink']};font-weight:800;font-size:34px;padding:18px 34px;border-radius:999px;margin-top:-30px;letter-spacing:.5px}}
 </style></head><body>
